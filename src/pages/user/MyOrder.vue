@@ -64,7 +64,7 @@ export default {
   data () {
     return {
       columns: [
-        { name: 'judulFilm', align: 'center', label: 'Judul Film', field: 'judulFilm', sortable: true },
+        { name: 'judulFilm', align: 'center', label: 'Nama Laptop', field: 'judulFilm', sortable: true },
         { name: 'harga', align: 'center', label: 'Harga', field: 'harga', sortable: true },
         { name: 'jumlah', align: 'center', label: 'Jumlah Beli', field: 'jumlah', sortable: true },
         { name: 'total', align: 'center', label: 'Total', field: 'total', sortable: true },

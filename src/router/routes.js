@@ -11,6 +11,7 @@ const routes = [
       { path: 'input', name: 'inputBarang', component: () => import('pages/admin/inputbarang.vue') },
       { path: 'datauser', name: 'dataUser', component: () => import('pages/admin/datauser.vue') },
       { path: 'datadvd', name: 'dataDVD', component: () => import('pages/admin/datadvd.vue') },
+      { path: 'about', name: 'about', component: () => import('pages/admin/about.vue') },
       { path: 'formedit/:id', name: 'formedit', component: () => import('pages/admin/formedit.vue') }
     ]
   },

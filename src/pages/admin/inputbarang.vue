@@ -8,8 +8,8 @@
           </div>
         <div class="col">
           <q-banner inline-actions class="text-blue-grey-14">
-            <div class="text-h6">Input DVD</div>
-            <div>Input Data DVD Film Baru</div>
+            <div class="text-h6">Input Laptop</div>
+            <div>Input Data Laptop Baru</div>
           </q-banner>
         </div>
       </div>
@@ -24,14 +24,14 @@
       <q-input
           filled
           v-model="form.judulFilm"
-          label="Judul Film"
-          :rules="[ val => val && val.length > 0 || 'Mohon Isi Judul']"
+          label="Nama Laptop"
+          :rules="[ val => val && val.length > 0 || 'Mohon Isi Nama']"
       />
       <q-input
           filled
           type="number"
           v-model="form.harga"
-          label="Harga Film"
+          label="Harga Laptop"
           :rules="[ val => val && val.length > 0 || 'Mohon Isi Harga']"
       />
       <q-input
@@ -44,7 +44,7 @@
         filled
         v-model="form.genre"
         :options="optionGenre"
-        label="Pilih Genre"
+        label="Pilih Genre Laptop"
       />
 
       <div class="flex">
@@ -61,7 +61,7 @@
       <q-input
       v-model="form.deskripsi"
       filled
-      label="Deskripsi"
+      label="Spesifikasi"
       type="textarea"
     />
 
@@ -93,11 +93,8 @@ export default {
         deskripsi: null
       },
       optionGenre: [
-        'Action',
-        'Adventure',
-        'Comedy',
-        'Drama',
-        'Fantasy'
+        'Gaming',
+        'Desain'
       ],
       image: null
     }

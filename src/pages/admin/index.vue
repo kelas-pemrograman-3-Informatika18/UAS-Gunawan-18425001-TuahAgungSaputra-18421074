@@ -9,7 +9,7 @@
           <div class="col">
             <q-banner inline-actions class="text-blue-grey-14">
               <div class="text-h6">Data Transaksi</div>
-              <div>Data Transaksi Pembelian Dan Pemesanan</div>
+              <div>data Transaksi Pembelian Dan Pemesanan</div>
             </q-banner>
           </div>
         </div>
@@ -80,7 +80,7 @@
             </div>
             <div class="col">
               <div class="text-caption">
-                Nama Laptop
+                Judul Movie
               </div>
               <div class="text-weight-bold">
                 {{activeData.dataMovie[0].judulFilm}}
@@ -130,7 +130,7 @@ export default {
   data () {
     return {
       columns: [
-        { name: 'judulFilm', align: 'center', label: 'Judul Film', field: 'judulFilm', sortable: true },
+        { name: 'judulFilm', align: 'center', label: 'Nama Laptop', field: 'judulFilm', sortable: true },
         { name: 'harga', align: 'center', label: 'Harga', field: 'harga', sortable: true },
         { name: 'jumlah', align: 'center', label: 'Jumlah Beli', field: 'jumlah', sortable: true },
         { name: 'total', align: 'center', label: 'Total', field: 'total', sortable: true },

@@ -24,14 +24,14 @@
       <q-input
           filled
           v-model="form.judulFilm"
-          label="Judul Film"
-          :rules="[ val => val && val.length > 0 || 'Mohon Isi Judul']"
+          label="Nama Laptop"
+          :rules="[ val => val && val.length > 0 || 'Mohon Isi Nama']"
       />
       <q-input
           filled
           type="number"
           v-model="form.harga"
-          label="Harga Film"
+          label="Harga Laptop"
           :rules="[ val => val && val.length > 0 || 'Mohon Isi Harga']"
       />
       <q-input
@@ -61,11 +61,11 @@
       <q-input
       v-model="form.deskripsi"
       filled
-      label="Deskripsi"
+      label="Spesifikasi"
       type="textarea"
     />
 
-      <q-file accept=".jpg, image/*"  color="primary" filled v-model="image" label="Upload Cover Film">
+      <q-file accept=".jpg, image/*"  color="primary" filled v-model="image" label="Upload Gambar Laptop">
         <template v-slot:prepend>
           <q-icon name="cloud_upload" />
         </template>
@@ -93,11 +93,8 @@ export default {
         deskripsi: null
       },
       optionGenre: [
-        'Action',
-        'Adventure',
-        'Comedy',
-        'Drama',
-        'Fantasy'
+        'Gaming',
+        'Desain'
       ],
       image: null
     }

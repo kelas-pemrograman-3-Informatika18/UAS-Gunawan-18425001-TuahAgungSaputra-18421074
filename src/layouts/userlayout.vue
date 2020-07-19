@@ -1,7 +1,7 @@
 <template>
   <q-layout view="lHh LpR fFf">
     <q-toolbar unelevated style="height: 70px" class="bg-white text-indigo-10">
-      <div class="text-h6 q-ml-md">E-computer</div>
+      <div class="text-h6 q-ml-md">E-Computer</div>
 
       <q-space />
 

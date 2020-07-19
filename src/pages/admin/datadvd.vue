@@ -65,11 +65,11 @@ export default {
   data () {
     return {
       columns: [
-        { name: 'judulFilm', align: 'left', label: 'Nama Film', field: 'judulFilm', sortable: true },
+        { name: 'judulFilm', align: 'left', label: 'Nama Laptop', field: 'judulFilm', sortable: true },
         { name: 'harga', align: 'left', label: 'Harga', field: 'harga', sortable: true },
         { name: 'tahun', align: 'left', label: 'Tahun', field: 'tahun', sortable: true },
         { name: 'genre', align: 'left', label: 'Genre', field: 'genre', sortable: true },
-        { name: 'deskripsi', align: 'left', label: 'Deskripsi', field: 'deskripsi', sortable: true },
+        { name: 'deskripsi', align: 'left', label: 'Spesifikasi', field: 'deskripsi', sortable: true },
         { name: 'gambar', align: 'left', label: 'Gambar', field: 'gambar' },
         { name: 'aksi', align: 'center', label: 'Aksi', field: 'aksi' }
       ],

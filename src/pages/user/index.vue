@@ -12,10 +12,10 @@
         transition-prev="jump-up"
         transition-next="rotate"
       >
-        <q-carousel-slide :name="1" img-src="https://cdn.quasar.dev/img/mountains.jpg" />
-        <q-carousel-slide :name="2" img-src="https://cdn.quasar.dev/img/parallax1.jpg" />
-        <q-carousel-slide :name="3" img-src="https://cdn.quasar.dev/img/parallax2.jpg" />
-        <q-carousel-slide :name="4" img-src="https://cdn.quasar.dev/img/quasar.jpg" />
+        <q-carousel-slide :name="1" img-src="https://www.windowscentral.com/sites/wpcentral.com/files/styles/xlarge/public/field/image/2017/05/acer%20nitro%205%20front%20right%20angle%20game%20screenshot.jpg?itok=DobygQDa" />
+        <q-carousel-slide :name="2" img-src="https://images.firstpost.com/wp-content/uploads/2020/04/ASUS-ROG-Zephyrus-Duo-15-720.jpg" />
+        <q-carousel-slide :name="3" img-src="https://resources.mynewsdesk.com/image/upload/c_limit,dpr_2.625,f_auto,h_700,q_auto,w_360/oiyuk0jga7bqbyhktu4y.jpg" />
+        <q-carousel-slide :name="4" img-src="https://cdn.mos.cms.futurecdn.net/gB853GsToqQnszSSa7eQPf-768-80.jpg" />
       </q-carousel>
     </div>
     <div class="row q-col-gutter-md">
@@ -53,7 +53,7 @@
               {{ movie.genre }}
             </div>
             <div @click="movie.expanded = !movie.expanded" class="text-caption text-grey cursor-pointer">
-              Tampilkan Deskripsi
+              Tampilkan Spesifikasi
             </div>
             <q-slide-transition>
               <div v-show="movie.expanded">

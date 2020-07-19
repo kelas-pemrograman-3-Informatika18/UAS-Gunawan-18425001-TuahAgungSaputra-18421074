@@ -9,13 +9,13 @@
                 <div class="col-md-6 col-sm-12 col-xs-12">
                   <div class="row">
                     <div class="col-md-8 offset-2">
-                      <q-img src="~assets/undraw_social_friends_nsbv.svg"/>
+                      <q-img src="~assets/laptop3.jpg"/>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <q-card-section>
-                    <div class="text-h4">Movie App</div>
+                    <div class="text-h4">E-Computer</div>
                     <div>Login Akun Anda</div>
                   </q-card-section>
                    <q-form
@@ -28,6 +28,7 @@
                      <q-card-section>
                        <q-btn class="full-width" type="submit" color="primary" unelevated label="Login"/>
                        <q-btn class="full-width q-mt-md" :to="{ name: 'registerpage' }" flat color="primary" unelevated label="Register" />
+                       <q-btn class="full-width" type="submit" color="primary" unelevated label="Lupa Sandi"/>
                      </q-card-section>
                    </q-form>
                 </div>

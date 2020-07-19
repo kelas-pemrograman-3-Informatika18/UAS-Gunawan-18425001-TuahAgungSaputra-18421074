@@ -8,7 +8,7 @@
     >
       <q-card-section>
         <div class="text-h6">Tentang Aplikasi</div>
-        <div class="text-subtitle2">Movie APP</div>
+        <div class="text-subtitle2">E-Computer</div>
       </q-card-section>
 
       <q-card-section class="q-pt-none">
@@ -24,7 +24,7 @@
 export default {
   data () {
     return {
-      tentang: 'MovieApp merupakan aplikasi yang digunakan untuk memesan film dengan kualitas HD dan dikirimkan dengan bentuk CD dan diantar ke customer melalui kurir/GO-Send'
+      tentang: 'E-Computer merupakan aplikasi yang digunakan untuk memesan laptop dan komputer dengan kualitas HD dan dikirimkan serta diantar ke customer dengan baik '
     }
   }
 }

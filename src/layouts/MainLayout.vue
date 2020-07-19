@@ -6,7 +6,7 @@
         <q-space></q-space>
         <q-btn flat round>
           <q-avatar>
-          <q-img src="https://cdn.quasar.dev/img/avatar.png"/>
+          <q-img src="https://img.gkbcdn.com/s3/p/2019-08-08/xiaomi-mi-gaming-notebook-core-i7-9750h-16gb-512gb-gray-1574132655850.jpg"/>
           </q-avatar>
           <q-menu>
           <q-list style="min-width: 100px">
@@ -14,7 +14,7 @@
               <q-item-section>Profile</q-item-section>
             </q-item>
             <q-item clickable v-close-popup @click="logout()">
-              <q-item-section>Logout</q-item-section>
+              <q-item-section>Keluar</q-item-section>
             </q-item>
           </q-list>
           </q-menu>
@@ -33,10 +33,10 @@
             <q-item class="justify-center text-center q-mt-md q-mb-md">
               <div>
                 <q-avatar size="120px">
-                  <q-img src="https://cdn.quasar.dev/img/avatar.png"/>
+                  <q-img src="https://img.gkbcdn.com/s3/p/2019-08-08/xiaomi-mi-gaming-notebook-core-i7-9750h-16gb-512gb-gray-1574132655850.jpg"/>
                 </q-avatar>
                 <div class="text-weight-bold q-mt-md">{{ $q.localStorage.getItem('datauser').namaLengkap }}</div>
-                <div>Aplikasi Penjualan DVD</div>
+                <div>Aplikasi Penjualan Laptop</div>
               </div>
             </q-item>
 
@@ -50,18 +50,18 @@
             </q-item>
             <q-item clickable active-class="active" v-ripple exact :to="{ name: 'dataDVD' }">
               <q-item-section avatar>
-                <q-icon name="dashboard"/>
+                <q-icon name="poll"/>
               </q-item-section>
               <q-item-section>
-                <q-item-label>Data DVD</q-item-label>
+                <q-item-label>Data Laptop</q-item-label>
               </q-item-section>
-            </q-item>
+              </q-item>
             <q-item clickable active-class="active" v-ripple exact :to="{ name: 'inputBarang' }">
               <q-item-section avatar>
                 <q-icon name="input"/>
               </q-item-section>
               <q-item-section>
-                <q-item-label>Input DVD</q-item-label>
+                <q-item-label>Input Laptop</q-item-label>
               </q-item-section>
             </q-item>
             <q-item clickable active-class="active" v-ripple exact :to="{ name: 'dataUser'}">
@@ -70,6 +70,14 @@
               </q-item-section>
               <q-item-section>
                 <q-item-label>Data User</q-item-label>
+              </q-item-section>
+            </q-item>
+            <q-item clickable active-class="active" v-ripple exact :to="{ name: 'about'}">
+              <q-item-section avatar>
+                <q-icon name="help_center"/>
+              </q-item-section>
+              <q-item-section>
+                <q-item-label>About</q-item-label>
               </q-item-section>
             </q-item>
 
